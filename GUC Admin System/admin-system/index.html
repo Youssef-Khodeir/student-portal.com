@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="GUC Administration Systme where Guc Students can find all the services they need for better education experience"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="../icon.png" rel="icon" />
+    <link href="style.css" rel="stylesheet" />
+    <link href="queries.css" rel="stylesheet" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer src="script.js"></script>
+
+    <title>GUC Stundents' Services</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <a href="index.html">
+          <img class="guc-logo" src="imgs/guc_logo.png" alt="Guc logo" />
+        </a>
+
+        <nav class="header-nav nav-open">
+          <ul class="nav-list">
+            <li>
+              <span> Schedules </span>
+              <ul class="dropdown">
+                <li class="dropdown-item">
+                  <a class="dropdown-link" href="#">Your Schedule</a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="dropdown-link" href="#">Summer Schedule</a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="dropdown-link" href="#">Group Schedule</a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="dropdown-link" href="#">Course/Staff Schedule</a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="dropdown-link" href="#">Exams Schedule</a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="dropdown-link" href="#">Summer Courses</a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="dropdown-link" href="#">Change Group</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <span>Performance</span>
+              <ul class="dropdown">
+                <li class="dropdown-item">
+                  <a class="dropdown-link" href="#">Upload Course Work</a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="dropdown-link" href="#">Attendance</a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="dropdown-link" href="#">Grades</a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="dropdown-link" href="#">Previous Semester Grades</a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="dropdown-link" href="#">Transcript</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <span>Services</span>
+              <ul class="dropdown dropdown-services">
+                <div class="dropdown-evaluations">
+                  <li class="dropdown-services-title">
+                    <span>Evaluations</span>
+                  </li>
+                  <li class="dropdown-item">
+                    <a class="dropdown-link" href="#">Evaluate Academics </a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a class="dropdown-link" href="#">Evaluate Courses</a>
+                  </li>
+                </div>
+
+                <div class="dropdown-declarations">
+                  <li class="dropdown-services-title">
+                    <span>Declarations</span>
+                  </li>
+                  <li class="dropdown-item">
+                    <a class="dropdown-link" href="#"
+                      >Engineering Faculty/Majors</a
+                    >
+                  </li>
+                  <li class="dropdown-item">
+                    <a class="dropdown-link" href="#"
+                      >Civil Engineering Majors</a
+                    >
+                  </li>
+
+                  <li class="dropdown-item">
+                    <a class="dropdown-link" href="#">Management Majors</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a class="dropdown-link" href="#">Applied Arts Majors</a>
+                  </li>
+                </div>
+
+                <div class="dropdown-electives">
+                  <li class="dropdown-services-title">
+                    <span>Electives</span>
+                  </li>
+                  <li class="dropdown-item">
+                    <a class="dropdown-link" href="#">Engineering </a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a class="dropdown-link" href="#">Applied Arts</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a class="dropdown-link" href="#">Law</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a class="dropdown-link" href="#">Architecture</a>
+                  </li>
+                </div>
+
+                <div class="dropdown-excuses">
+                  <li class="dropdown-services-title"><span>Excuses</span></li>
+                  <li class="dropdown-item">
+                    <a class="dropdown-link" href="#">Midterms</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a class="dropdown-link" href="#">Finals Exams</a>
+                  </li>
+                </div>
+              </ul>
+            </li>
+
+            <li>
+              <span>Registerations</span>
+              <ul class="dropdown">
+                <li class="dropdown-item">
+                  <a class="dropdown-link" href="#">Masters </a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="dropdown-link" href="#">Summer </a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="dropdown-link" href="#">Reservation System</a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="dropdown-link" href="#">Placement Test </a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="dropdown-link" href="#">Makeup Exam </a>
+                </li>
+
+                <li class="dropdown-item">
+                  <a class="dropdown-link" href="#">Summer Language </a>
+                </li>
+
+                <li class="dropdown-item">
+                  <a class="dropdown-link" href="#">Course </a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <span>Internships</span>
+              <ul class="dropdown">
+                <li class="dropdown-item">
+                  <a class="dropdown-link" href="#">Internship Status </a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="dropdown-link" href="#">Enrollment Form</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <span>Bachelor</span>
+              <ul class="dropdown">
+                <li class="dropdown-item">
+                  <a class="dropdown-link" href="#">Upload Thesis Soft Copy</a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="dropdown-link" href="#">Engineering Thesis</a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="dropdown-link" href="#">Management Thesis</a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="dropdown-link" href="#">Applied Arts Thesis</a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="dropdown-link" href="#">Law Thesis</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="nav-btn">
+          <ion-icon class="nav-icon" name="grid-outline"></ion-icon>
+          <ion-icon class="nav-icon" name="close-outline"></ion-icon>
+        </button>
+      </div>
+
+      <div class="section-hero container">
+        <h1>GUC Administration System</h1>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-financials">
+        <div class="container">
+          <div class="section-title">
+            <p class="sub-heading">Check</p>
+            <h2 class="secondary-heading">Financials</h2>
+          </div>
+        </div>
+
+        <div class="financials">
+          <div class="container financials-container">
+            <div class="financials-col">
+              <ion-icon
+                class="financials-icon"
+                name="laptop-outline"
+              ></ion-icon>
+              <a class="btn btn-financials" href="#">Financial Balance</a>
+            </div>
+
+            <div class="financials-col">
+              <ion-icon
+                class="financials-icon"
+                name="calendar-outline"
+              ></ion-icon>
+              <a class="btn btn-financials" href="#">GUC Financial Calendar</a>
+            </div>
+
+            <div class="financials-col">
+              <ion-icon class="financials-icon" name="cash-outline"></ion-icon>
+              <a class="btn btn-financials" href="#">Tuition Fees</a>
+            </div>
+
+            <div class="financials-col">
+              <ion-icon class="financials-icon" name="card-outline"></ion-icon>
+              <a class="btn btn-financials" href="#">Methods of Payment</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-travel">
+        <div class="container">
+          <div class="section-title travel-title">
+            <p class="sub-heading">start</p>
+            <h2 class="secondary-heading">Traveling</h2>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="travel-container">
+            <div class="travel-text-box">
+              <p class="travel-text-title">Visit GUC Campus in Berlin</p>
+              <div class="travel-icon-box">
+                <ion-icon
+                  class="travel-icon"
+                  name="airplane-outline"
+                ></ion-icon>
+                <a href="#" class="btn travel-btn">GUC Berlin</a>
+              </div>
+            </div>
+            <div class="travel-img-box">
+              <img src="imgs/berlin-campus.jpg" alt="Guc campus in berlin" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-general-services">
+        <div class="general-services">
+          <div class="container general-container">
+            <div class="section-title">
+              <p class="sub-heading">General</p>
+              <h2 class="secondary-heading">Services</h2>
+            </div>
+
+            <div class="general-features">
+              <div class="general-col">
+                <ion-icon class="general-icon" name="book-outline"></ion-icon>
+                <a class="btn btn-general" href="#">GUC Research Journal</a>
+              </div>
+
+              <div class="general-col">
+                <ion-icon
+                  class="general-icon"
+                  name="alert-circle-outline"
+                ></ion-icon>
+                <a class="btn btn-general" href="#"
+                  >Probation Session Reservation</a
+                >
+              </div>
+
+              <div class="general-col">
+                <ion-icon
+                  class="general-icon"
+                  name="documents-outline"
+                ></ion-icon>
+                <a class="btn btn-general" href="#"
+                  >Revision Attendance Report</a
+                >
+              </div>
+
+              <div class="general-col">
+                <ion-icon
+                  class="general-icon"
+                  name="library-outline"
+                ></ion-icon>
+                <a class="btn btn-general" href="#">Academic Course Books</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="container footer-container">
+          <ul class="footer-list">
+            <li>German University in Cairo</li>
+            <li>New Cairo City . Main Entrance El-Tagamoa El-Khames</li>
+            <li>Hotline 16482 . Tel: +202 27589990-8 . Fax: +202 27581041</li>
+          </ul>
+
+          <nav>
+            <ul class="footer-nav-list">
+              <li><a class="footer-links" href="#">Contact</a></li>
+              <li><a class="footer-links" href="#">FAQ</a></li>
+              <li>
+                <a class="footer-links" href="#">Policies and Regulations</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
